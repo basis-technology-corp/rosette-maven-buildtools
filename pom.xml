@@ -19,7 +19,7 @@
 
     <groupId>com.basistech</groupId>
     <artifactId>open-source-buildtools</artifactId>
-    <version>7.1.0</version>
+    <version>7.1.1-SNAPSHOT</version>
 
     <name>Babel Street Rosette Open Source Buildtools</name>
     <description>Configuration files for Checkstyle,  PMD, and bnd.</description>
@@ -51,7 +51,7 @@
         <connection>scm:git:git@github.com:basis-technology-corp/rosette-maven-buildtools.git</connection>
         <developerConnection>scm:git:git@github.com:basis-technology-corp/rosette-maven-buildtools.git</developerConnection>
         <url>https://github.com/basis-technology-corp/rosette-maven-buildtools</url>
-        <tag>open-source-buildtools-7.1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
