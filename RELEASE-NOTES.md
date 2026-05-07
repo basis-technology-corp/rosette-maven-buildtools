@@ -1,6 +1,6 @@
 # Release Notes
 
-## 7.1.0 - 20260211
+## 7.1.0 - 20260507
 - PMD:  Replace `UnnecessaryLocalBeforeReturn` with `VariableCanBeInlined`
 
 ## 7.0.1

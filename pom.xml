@@ -21,7 +21,7 @@
     <artifactId>open-source-buildtools</artifactId>
     <version>7.0.2-SNAPSHOT</version>
 
-    <name>Basis Technology Open Source Buildtools</name>
+    <name>Babel Street Rosette Open Source Buildtools</name>
     <description>Configuration files for Checkstyle,  PMD, and bnd.</description>
     <url>https://github.com/basis-technology-corp/rosette-maven-buildtools</url>
 
@@ -54,7 +54,6 @@
         <tag>HEAD</tag>
     </scm>
 
-
     <properties>
         <maven.test.skip>true</maven.test.skip>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -69,7 +68,7 @@
             <plugins>
                 <plugin>
                     <artifactId>maven-resources-plugin</artifactId>
-                    <version>3.4.0</version>
+                    <version>3.5.0</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
@@ -77,7 +76,7 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.5.4</version>
+                    <version>3.5.5</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-jar-plugin</artifactId>
@@ -91,7 +90,6 @@
                     <artifactId>maven-deploy-plugin</artifactId>
                     <version>3.1.4</version>
                 </plugin>
-                <!-- site lifecycle -->
                 <plugin>
                     <artifactId>maven-site-plugin</artifactId>
                     <version>3.21.0</version>
@@ -100,7 +98,6 @@
                     <artifactId>maven-project-info-reports-plugin</artifactId>
                     <version>3.9.0</version>
                 </plugin>
-                <!-- clean lifecycle -->
                 <plugin>
                     <artifactId>maven-clean-plugin</artifactId>
                     <version>3.5.0</version>
@@ -250,7 +247,6 @@
                 <reportSets>
                     <reportSet>
                         <reports>
-                            <!-- select reports -->
                             <report>help</report>
                             <report>index</report>
                             <report>summary</report>
